@@ -1,0 +1,1 @@
+curl  --retry 3 --insecure -s "$CODIO_AUTOGRADE_URL&grade=50"

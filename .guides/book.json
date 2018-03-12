@@ -1,0 +1,41 @@
+{
+ "name": "Few pages",
+ "children": [
+  {
+   "title": "Page 1",
+   "id": "add5c156-5409-85b1-854e-d3879e706652",
+   "pageId": "add5c156-5409-85b1-854e-d3879e706652",
+   "type": "page"
+  },
+  {
+   "title": "Page 2",
+   "id": "887255dc-f117-233f-5a7c-6bd3faf33510",
+   "pageId": "887255dc-f117-233f-5a7c-6bd3faf33510",
+   "type": "page"
+  },
+  {
+   "id": "8b16ccd0-117a-89a7-facf-c0382895a065",
+   "title": "Page 3",
+   "pageId": "bcffc1ef-1547-f6e3-1cef-36d735141f89",
+   "type": "page"
+  },
+  {
+   "id": "cf1e51b0-0e56-e992-efab-7b7bed9f722c",
+   "title": "Page 4",
+   "pageId": "8a273b49-df9b-9363-a047-f830b075eba3",
+   "type": "page"
+  },
+  {
+   "id": "d045edbb-e4e2-108e-8f3d-99d99b2cc663",
+   "title": "Page 5",
+   "pageId": "8372a210-474e-31fb-fdde-9c2851e21715",
+   "type": "page"
+  },
+  {
+   "id": "1a89df92-f35e-d60c-15d7-976abee4300e",
+   "title": "New Page 6",
+   "pageId": "60d0caf7-dc67-cd15-c168-7011310f8bd7",
+   "type": "page"
+  }
+ ]
+}

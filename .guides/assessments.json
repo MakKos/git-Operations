@@ -1,0 +1,1007 @@
+[
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-3290308319",
+  "source": {
+   "name": "Standard Code Test",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "preExecuteCommand": "",
+   "command": "echo \"Well done!\"",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "INSTRUCTIONS",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "",
+     "output": "Well done!"
+    }
+   ]
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2408482642",
+  "source": {
+   "name": "Advanced Code Test",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "INSTRUCTIONS",
+   "command": "date",
+   "learningObjectives": "",
+   "points": 1
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-634816716",
+  "source": {
+   "name": "Multiple Choice Question",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "QUESTION",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "b6cfcb33-df1c-b404-45a3-4f9a22dc061a",
+     "correct": true,
+     "answer": "42"
+    },
+    {
+     "_id": "fd6c378f-da3b-9850-ce14-fdbb24f70d30",
+     "correct": false,
+     "answer": "33"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2086457211",
+  "source": {
+   "name": "Multiple Choice Question MULTIPLE RESPONSE",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "QUESTION",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": true,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "7e98e4f3-e1f8-b513-03c0-3eb2d04612cb",
+     "correct": true,
+     "answer": "73"
+    },
+    {
+     "_id": "bbe8c3c9-6708-f226-3f65-7b4a899d34dd",
+     "correct": true,
+     "answer": "42"
+    },
+    {
+     "_id": "12e62195-d4e6-8ac8-b423-c021e29c9cd5",
+     "correct": false,
+     "answer": "33"
+    }
+   ]
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-828735698",
+  "source": {
+   "name": "Fill in the Blanks",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "INSTRUCTIONS",
+   "points": "1",
+   "showValues": false,
+   "learningObjectives": "",
+   "text": "<<<42>>> > <<<33>>>",
+   "tokens": {
+    "blank": [
+     "42",
+     "33"
+    ],
+    "text": [
+     0,
+     " > ",
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2543168686",
+  "source": {
+   "name": "Fill in the Blanks SHOW POSSIBLE VALUES",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "INSTRUCTIONS",
+   "points": "1",
+   "showValues": true,
+   "learningObjectives": "",
+   "text": "<<<42>>> > <<<33>>>",
+   "tokens": {
+    "blank": [
+     "42",
+     "33"
+    ],
+    "text": [
+     0,
+     " > ",
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-2144676295",
+  "source": {
+   "name": "Free Text",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "INSTRUCTIONS",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "math-stack",
+  "taskId": "math-stack-230084404",
+  "source": {
+   "name": "S.T.A.C.K Math Assessment",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "question": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<quiz>\n<!-- question: 28  -->\n  <question type=\"stack\">\n    <name>\n      <text>Algebraic input</text>\n    </name>\n    <questiontext format=\"html\">\n      <text><![CDATA[<p>Type in {@ta@}.<br></p><p>[[input:ans1]]</p><div>[[validation:ans1]]</div>]]></text>\n    </questiontext>\n    <generalfeedback format=\"html\">\n      <text></text>\n    </generalfeedback>\n    <defaultgrade>1.0000000</defaultgrade>\n    <penalty>0.1000000</penalty>\n    <hidden>0</hidden>\n    <questionvariables>\n      <text>ta:a*b</text>\n    </questionvariables>\n    <specificfeedback format=\"html\">\n      <text>[[feedback:prt1]]</text>\n    </specificfeedback>\n    <questionnote>\n      <text></text>\n    </questionnote>\n    <questionsimplify>1</questionsimplify>\n    <assumepositive>0</assumepositive>\n    <assumereal>0</assumereal>\n    <prtcorrect format=\"html\">\n      <text>Correct answer, well done.</text>\n    </prtcorrect>\n    <prtpartiallycorrect format=\"html\">\n      <text>Your answer is partially correct.</text>\n    </prtpartiallycorrect>\n    <prtincorrect format=\"html\">\n      <text>Incorrect answer.</text>\n    </prtincorrect>\n    <multiplicationsign>dot</multiplicationsign>\n    <sqrtsign>1</sqrtsign>\n    <complexno>i</complexno>\n    <inversetrig>cos-1</inversetrig>\n    <matrixparens>[</matrixparens>\n    <variantsselectionseed></variantsselectionseed>\n    <input>\n      <name>ans1</name>\n      <type>algebraic</type>\n      <tans>ta</tans>\n      <boxsize>15</boxsize>\n      <strictsyntax>1</strictsyntax>\n      <insertstars>2</insertstars>\n      <syntaxhint></syntaxhint>\n      <syntaxattribute>0</syntaxattribute>\n      <forbidwords>solve</forbidwords>\n      <allowwords></allowwords>\n      <forbidfloat>1</forbidfloat>\n      <requirelowestterms>0</requirelowestterms>\n      <checkanswertype>1</checkanswertype>\n      <mustverify>1</mustverify>\n      <showvalidation>1</showvalidation>\n      <options></options>\n    </input>\n    <prt>\n      <name>prt1</name>\n      <value>1.0000000</value>\n      <autosimplify>1</autosimplify>\n      <feedbackvariables>\n        <text></text>\n      </feedbackvariables>\n      <node>\n        <name>0</name>\n        <answertest>AlgEquiv</answertest>\n        <sans>ans1</sans>\n        <tans>ta</tans>\n        <testoptions></testoptions>\n        <quiet>0</quiet>\n        <truescoremode>=</truescoremode>\n        <truescore>1.0000000</truescore>\n        <truepenalty></truepenalty>\n        <truenextnode>-1</truenextnode>\n        <trueanswernote>prt1-1-T</trueanswernote>\n        <truefeedback format=\"html\">\n          <text></text>\n        </truefeedback>\n        <falsescoremode>=</falsescoremode>\n        <falsescore>0.0000000</falsescore>\n        <falsepenalty></falsepenalty>\n        <falsenextnode>-1</falsenextnode>\n        <falseanswernote>prt1-1-F</falseanswernote>\n        <falsefeedback format=\"html\">\n          <text></text>\n        </falsefeedback>\n      </node>\n    </prt>\n  </question>\n\n</quiz>",
+   "points": "1",
+   "learningObjectives": "",
+   "oneTimeTest": true
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-3865355319",
+  "source": {
+   "name": "Standard Code Test",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "preExecuteCommand": "",
+   "command": "echo \"Well done!\"",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "INSTRUCTIONS",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "",
+     "output": "Well done!"
+    }
+   ]
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-526907721",
+  "source": {
+   "name": "Advanced Code Test",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "INSTRUCTIONS",
+   "command": "date",
+   "learningObjectives": "",
+   "points": 1
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-4256565504",
+  "source": {
+   "name": "Multiple Choice Question",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "QUESTION",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "a51e9e6a-a4c9-7127-2927-5aa7fcacee01",
+     "correct": true,
+     "answer": "42"
+    },
+    {
+     "_id": "d6606ff7-0bd7-8794-8acd-edb499e606a1",
+     "correct": false,
+     "answer": "33"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1660542282",
+  "source": {
+   "name": "Multiple Choice Question MULTIPLE RESPONSE",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "QUESTION",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": true,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "c045ed92-e52d-c022-7ed6-1a78c50a38b1",
+     "correct": true,
+     "answer": "73"
+    },
+    {
+     "_id": "5fa8e36a-de3b-2531-71b4-f72682e6e430",
+     "correct": true,
+     "answer": "42"
+    },
+    {
+     "_id": "78398e11-1622-77f1-8877-a13ecd99b56a",
+     "correct": false,
+     "answer": "33"
+    }
+   ]
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3115993632",
+  "source": {
+   "name": "Fill in the Blanks",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "INSTRUCTIONS",
+   "points": "1",
+   "showValues": false,
+   "learningObjectives": "",
+   "text": "<<<42>>> > <<<33>>>",
+   "tokens": {
+    "blank": [
+     "42",
+     "33"
+    ],
+    "text": [
+     0,
+     " > ",
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2118118592",
+  "source": {
+   "name": "Fill in the Blanks SHOW POSSIBLE VALUES",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "INSTRUCTIONS",
+   "points": "1",
+   "showValues": true,
+   "learningObjectives": "",
+   "text": "<<<42>>> > <<<33>>>",
+   "tokens": {
+    "blank": [
+     "42",
+     "33"
+    ],
+    "text": [
+     0,
+     " > ",
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-3367221679",
+  "source": {
+   "name": "Free Text",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "INSTRUCTIONS",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "math-stack",
+  "taskId": "math-stack-3704640977",
+  "source": {
+   "name": "S.T.A.C.K Math Assessment",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "question": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<quiz>\n<!-- question: 28  -->\n  <question type=\"stack\">\n    <name>\n      <text>Algebraic input</text>\n    </name>\n    <questiontext format=\"html\">\n      <text><![CDATA[<p>Type in {@ta@}.<br></p><p>[[input:ans1]]</p><div>[[validation:ans1]]</div>]]></text>\n    </questiontext>\n    <generalfeedback format=\"html\">\n      <text></text>\n    </generalfeedback>\n    <defaultgrade>1.0000000</defaultgrade>\n    <penalty>0.1000000</penalty>\n    <hidden>0</hidden>\n    <questionvariables>\n      <text>ta:a*b</text>\n    </questionvariables>\n    <specificfeedback format=\"html\">\n      <text>[[feedback:prt1]]</text>\n    </specificfeedback>\n    <questionnote>\n      <text></text>\n    </questionnote>\n    <questionsimplify>1</questionsimplify>\n    <assumepositive>0</assumepositive>\n    <assumereal>0</assumereal>\n    <prtcorrect format=\"html\">\n      <text>Correct answer, well done.</text>\n    </prtcorrect>\n    <prtpartiallycorrect format=\"html\">\n      <text>Your answer is partially correct.</text>\n    </prtpartiallycorrect>\n    <prtincorrect format=\"html\">\n      <text>Incorrect answer.</text>\n    </prtincorrect>\n    <multiplicationsign>dot</multiplicationsign>\n    <sqrtsign>1</sqrtsign>\n    <complexno>i</complexno>\n    <inversetrig>cos-1</inversetrig>\n    <matrixparens>[</matrixparens>\n    <variantsselectionseed></variantsselectionseed>\n    <input>\n      <name>ans1</name>\n      <type>algebraic</type>\n      <tans>ta</tans>\n      <boxsize>15</boxsize>\n      <strictsyntax>1</strictsyntax>\n      <insertstars>2</insertstars>\n      <syntaxhint></syntaxhint>\n      <syntaxattribute>0</syntaxattribute>\n      <forbidwords>solve</forbidwords>\n      <allowwords></allowwords>\n      <forbidfloat>1</forbidfloat>\n      <requirelowestterms>0</requirelowestterms>\n      <checkanswertype>1</checkanswertype>\n      <mustverify>1</mustverify>\n      <showvalidation>1</showvalidation>\n      <options></options>\n    </input>\n    <prt>\n      <name>prt1</name>\n      <value>1.0000000</value>\n      <autosimplify>1</autosimplify>\n      <feedbackvariables>\n        <text></text>\n      </feedbackvariables>\n      <node>\n        <name>0</name>\n        <answertest>AlgEquiv</answertest>\n        <sans>ans1</sans>\n        <tans>ta</tans>\n        <testoptions></testoptions>\n        <quiet>0</quiet>\n        <truescoremode>=</truescoremode>\n        <truescore>1.0000000</truescore>\n        <truepenalty></truepenalty>\n        <truenextnode>-1</truenextnode>\n        <trueanswernote>prt1-1-T</trueanswernote>\n        <truefeedback format=\"html\">\n          <text></text>\n        </truefeedback>\n        <falsescoremode>=</falsescoremode>\n        <falsescore>0.0000000</falsescore>\n        <falsepenalty></falsepenalty>\n        <falsenextnode>-1</falsenextnode>\n        <falseanswernote>prt1-1-F</falseanswernote>\n        <falsefeedback format=\"html\">\n          <text></text>\n        </falsefeedback>\n      </node>\n    </prt>\n  </question>\n\n</quiz>",
+   "points": "1",
+   "learningObjectives": "",
+   "oneTimeTest": true
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-2102971318",
+  "source": {
+   "name": "Standard Code Test",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "preExecuteCommand": "",
+   "command": "echo \"Well done!\"",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "INSTRUCTIONS",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "",
+     "output": "Well done!"
+    }
+   ]
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-247664084",
+  "source": {
+   "name": "Advanced Code Test",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "INSTRUCTIONS",
+   "command": "date",
+   "learningObjectives": "",
+   "points": 1
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1028063235",
+  "source": {
+   "name": "Multiple Choice Question",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "QUESTION",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "7bbe5679-d474-db2b-bd2a-8cab9c032a53",
+     "correct": true,
+     "answer": "42"
+    },
+    {
+     "_id": "5d0d5955-a214-ff7f-9a5f-bf3b5b436fdd",
+     "correct": false,
+     "answer": "33"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2962274873",
+  "source": {
+   "name": "Multiple Choice Question MULTIPLE RESPONSE",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "QUESTION",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": true,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "f407abaf-df5d-90f4-4531-58bf11412fbb",
+     "correct": true,
+     "answer": "73"
+    },
+    {
+     "_id": "4b2ffcda-63cc-6b54-d1cf-4627279c6c2f",
+     "correct": true,
+     "answer": "42"
+    },
+    {
+     "_id": "e9b6fd53-bb8d-81e9-b94c-58988327e62c",
+     "correct": false,
+     "answer": "33"
+    }
+   ]
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2731099851",
+  "source": {
+   "name": "Fill in the Blanks",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "INSTRUCTIONS",
+   "points": "1",
+   "showValues": false,
+   "learningObjectives": "",
+   "text": "<<<42>>> > <<<33>>>",
+   "tokens": {
+    "blank": [
+     "42",
+     "33"
+    ],
+    "text": [
+     0,
+     " > ",
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-30216584",
+  "source": {
+   "name": "Fill in the Blanks SHOW POSSIBLE VALUES",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "INSTRUCTIONS",
+   "points": "1",
+   "showValues": true,
+   "learningObjectives": "",
+   "text": "<<<42>>> > <<<33>>>",
+   "tokens": {
+    "blank": [
+     "42",
+     "33"
+    ],
+    "text": [
+     0,
+     " > ",
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-3349197523",
+  "source": {
+   "name": "Free Text",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "INSTRUCTIONS",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "math-stack",
+  "taskId": "math-stack-2197652612",
+  "source": {
+   "name": "S.T.A.C.K Math Assessment",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "question": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<quiz>\n<!-- question: 28  -->\n  <question type=\"stack\">\n    <name>\n      <text>Algebraic input</text>\n    </name>\n    <questiontext format=\"html\">\n      <text><![CDATA[<p>Type in {@ta@}.<br></p><p>[[input:ans1]]</p><div>[[validation:ans1]]</div>]]></text>\n    </questiontext>\n    <generalfeedback format=\"html\">\n      <text></text>\n    </generalfeedback>\n    <defaultgrade>1.0000000</defaultgrade>\n    <penalty>0.1000000</penalty>\n    <hidden>0</hidden>\n    <questionvariables>\n      <text>ta:a*b</text>\n    </questionvariables>\n    <specificfeedback format=\"html\">\n      <text>[[feedback:prt1]]</text>\n    </specificfeedback>\n    <questionnote>\n      <text></text>\n    </questionnote>\n    <questionsimplify>1</questionsimplify>\n    <assumepositive>0</assumepositive>\n    <assumereal>0</assumereal>\n    <prtcorrect format=\"html\">\n      <text>Correct answer, well done.</text>\n    </prtcorrect>\n    <prtpartiallycorrect format=\"html\">\n      <text>Your answer is partially correct.</text>\n    </prtpartiallycorrect>\n    <prtincorrect format=\"html\">\n      <text>Incorrect answer.</text>\n    </prtincorrect>\n    <multiplicationsign>dot</multiplicationsign>\n    <sqrtsign>1</sqrtsign>\n    <complexno>i</complexno>\n    <inversetrig>cos-1</inversetrig>\n    <matrixparens>[</matrixparens>\n    <variantsselectionseed></variantsselectionseed>\n    <input>\n      <name>ans1</name>\n      <type>algebraic</type>\n      <tans>ta</tans>\n      <boxsize>15</boxsize>\n      <strictsyntax>1</strictsyntax>\n      <insertstars>2</insertstars>\n      <syntaxhint></syntaxhint>\n      <syntaxattribute>0</syntaxattribute>\n      <forbidwords>solve</forbidwords>\n      <allowwords></allowwords>\n      <forbidfloat>1</forbidfloat>\n      <requirelowestterms>0</requirelowestterms>\n      <checkanswertype>1</checkanswertype>\n      <mustverify>1</mustverify>\n      <showvalidation>1</showvalidation>\n      <options></options>\n    </input>\n    <prt>\n      <name>prt1</name>\n      <value>1.0000000</value>\n      <autosimplify>1</autosimplify>\n      <feedbackvariables>\n        <text></text>\n      </feedbackvariables>\n      <node>\n        <name>0</name>\n        <answertest>AlgEquiv</answertest>\n        <sans>ans1</sans>\n        <tans>ta</tans>\n        <testoptions></testoptions>\n        <quiet>0</quiet>\n        <truescoremode>=</truescoremode>\n        <truescore>1.0000000</truescore>\n        <truepenalty></truepenalty>\n        <truenextnode>-1</truenextnode>\n        <trueanswernote>prt1-1-T</trueanswernote>\n        <truefeedback format=\"html\">\n          <text></text>\n        </truefeedback>\n        <falsescoremode>=</falsescoremode>\n        <falsescore>0.0000000</falsescore>\n        <falsepenalty></falsepenalty>\n        <falsenextnode>-1</falsenextnode>\n        <falseanswernote>prt1-1-F</falseanswernote>\n        <falsefeedback format=\"html\">\n          <text></text>\n        </falsefeedback>\n      </node>\n    </prt>\n  </question>\n\n</quiz>",
+   "points": "1",
+   "learningObjectives": "",
+   "oneTimeTest": true
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-3651828136",
+  "source": {
+   "name": "Standard Code Test",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "preExecuteCommand": "",
+   "command": "echo \"Well done!\"",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "INSTRUCTIONS",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "",
+     "output": "Well done!"
+    }
+   ]
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-245903263",
+  "source": {
+   "name": "Advanced Code Test",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "INSTRUCTIONS",
+   "command": "date",
+   "learningObjectives": "",
+   "points": 1
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1561133126",
+  "source": {
+   "name": "Multiple Choice Question",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "QUESTION",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "068f6cf8-34d5-f6cc-1d8f-37f0fc36fb05",
+     "correct": true,
+     "answer": "42"
+    },
+    {
+     "_id": "bea678e9-5ba5-8f57-869a-6023171d22c5",
+     "correct": false,
+     "answer": "33"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-841390262",
+  "source": {
+   "name": "Multiple Choice Question MULTIPLE RESPONSE",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "QUESTION",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": true,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "769f69ea-f3ea-0e10-e25a-a682b7975d26",
+     "correct": true,
+     "answer": "73"
+    },
+    {
+     "_id": "64280885-33a7-aba6-94c4-5a1092f71cfa",
+     "correct": true,
+     "answer": "42"
+    },
+    {
+     "_id": "37812238-0070-c0c6-eb64-efc3c72bcdb3",
+     "correct": false,
+     "answer": "33"
+    }
+   ]
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1519329170",
+  "source": {
+   "name": "Fill in the Blanks",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "INSTRUCTIONS",
+   "points": "1",
+   "showValues": false,
+   "learningObjectives": "",
+   "text": "<<<42>>> > <<<33>>>",
+   "tokens": {
+    "blank": [
+     "42",
+     "33"
+    ],
+    "text": [
+     0,
+     " > ",
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2611594518",
+  "source": {
+   "name": "Fill in the Blanks SHOW POSSIBLE VALUES",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "INSTRUCTIONS",
+   "points": "1",
+   "showValues": true,
+   "learningObjectives": "",
+   "text": "<<<42>>> > <<<33>>>",
+   "tokens": {
+    "blank": [
+     "42",
+     "33"
+    ],
+    "text": [
+     0,
+     " > ",
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-3222000652",
+  "source": {
+   "name": "Free Text",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "INSTRUCTIONS",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "math-stack",
+  "taskId": "math-stack-464489428",
+  "source": {
+   "name": "S.T.A.C.K Math Assessment",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "question": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<quiz>\n<!-- question: 28  -->\n  <question type=\"stack\">\n    <name>\n      <text>Algebraic input</text>\n    </name>\n    <questiontext format=\"html\">\n      <text><![CDATA[<p>Type in {@ta@}.<br></p><p>[[input:ans1]]</p><div>[[validation:ans1]]</div>]]></text>\n    </questiontext>\n    <generalfeedback format=\"html\">\n      <text></text>\n    </generalfeedback>\n    <defaultgrade>1.0000000</defaultgrade>\n    <penalty>0.1000000</penalty>\n    <hidden>0</hidden>\n    <questionvariables>\n      <text>ta:a*b</text>\n    </questionvariables>\n    <specificfeedback format=\"html\">\n      <text>[[feedback:prt1]]</text>\n    </specificfeedback>\n    <questionnote>\n      <text></text>\n    </questionnote>\n    <questionsimplify>1</questionsimplify>\n    <assumepositive>0</assumepositive>\n    <assumereal>0</assumereal>\n    <prtcorrect format=\"html\">\n      <text>Correct answer, well done.</text>\n    </prtcorrect>\n    <prtpartiallycorrect format=\"html\">\n      <text>Your answer is partially correct.</text>\n    </prtpartiallycorrect>\n    <prtincorrect format=\"html\">\n      <text>Incorrect answer.</text>\n    </prtincorrect>\n    <multiplicationsign>dot</multiplicationsign>\n    <sqrtsign>1</sqrtsign>\n    <complexno>i</complexno>\n    <inversetrig>cos-1</inversetrig>\n    <matrixparens>[</matrixparens>\n    <variantsselectionseed></variantsselectionseed>\n    <input>\n      <name>ans1</name>\n      <type>algebraic</type>\n      <tans>ta</tans>\n      <boxsize>15</boxsize>\n      <strictsyntax>1</strictsyntax>\n      <insertstars>2</insertstars>\n      <syntaxhint></syntaxhint>\n      <syntaxattribute>0</syntaxattribute>\n      <forbidwords>solve</forbidwords>\n      <allowwords></allowwords>\n      <forbidfloat>1</forbidfloat>\n      <requirelowestterms>0</requirelowestterms>\n      <checkanswertype>1</checkanswertype>\n      <mustverify>1</mustverify>\n      <showvalidation>1</showvalidation>\n      <options></options>\n    </input>\n    <prt>\n      <name>prt1</name>\n      <value>1.0000000</value>\n      <autosimplify>1</autosimplify>\n      <feedbackvariables>\n        <text></text>\n      </feedbackvariables>\n      <node>\n        <name>0</name>\n        <answertest>AlgEquiv</answertest>\n        <sans>ans1</sans>\n        <tans>ta</tans>\n        <testoptions></testoptions>\n        <quiet>0</quiet>\n        <truescoremode>=</truescoremode>\n        <truescore>1.0000000</truescore>\n        <truepenalty></truepenalty>\n        <truenextnode>-1</truenextnode>\n        <trueanswernote>prt1-1-T</trueanswernote>\n        <truefeedback format=\"html\">\n          <text></text>\n        </truefeedback>\n        <falsescoremode>=</falsescoremode>\n        <falsescore>0.0000000</falsescore>\n        <falsepenalty></falsepenalty>\n        <falsenextnode>-1</falsenextnode>\n        <falseanswernote>prt1-1-F</falseanswernote>\n        <falsefeedback format=\"html\">\n          <text></text>\n        </falsefeedback>\n      </node>\n    </prt>\n  </question>\n\n</quiz>",
+   "points": "1",
+   "learningObjectives": "",
+   "oneTimeTest": true
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1803824960",
+  "source": {
+   "name": "Standard Code Test",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "preExecuteCommand": "",
+   "command": "echo \"Well done!\"",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "INSTRUCTIONS",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "",
+     "output": "Well done!"
+    }
+   ]
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1382068919",
+  "source": {
+   "name": "Advanced Code Test",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "INSTRUCTIONS",
+   "command": "date",
+   "learningObjectives": "",
+   "points": 1
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1266528045",
+  "source": {
+   "name": "Multiple Choice Question",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "QUESTION",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "cbc88a15-d4cf-4b74-d582-aaadd2fcfeaf",
+     "correct": true,
+     "answer": "42"
+    },
+    {
+     "_id": "bebe5ede-332a-091b-b34e-2ca327bd4c56",
+     "correct": false,
+     "answer": "33"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2230419397",
+  "source": {
+   "name": "Multiple Choice Question MULTIPLE RESPONSE",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "QUESTION",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": true,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "dc9b0f6a-5f16-f9fb-ebba-3249f12ac6e4",
+     "correct": true,
+     "answer": "73"
+    },
+    {
+     "_id": "c5db35fd-1106-2ba7-3f59-a177d05c8260",
+     "correct": true,
+     "answer": "42"
+    },
+    {
+     "_id": "6157eb7e-19a2-98de-a18b-58d5beec66a3",
+     "correct": false,
+     "answer": "33"
+    }
+   ]
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3996222844",
+  "source": {
+   "name": "Fill in the Blanks",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "INSTRUCTIONS",
+   "points": "1",
+   "showValues": false,
+   "learningObjectives": "",
+   "text": "<<<42>>> > <<<33>>>",
+   "tokens": {
+    "blank": [
+     "42",
+     "33"
+    ],
+    "text": [
+     0,
+     " > ",
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1089945160",
+  "source": {
+   "name": "Fill in the Blanks SHOW POSSIBLE VALUES",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "INSTRUCTIONS",
+   "points": "1",
+   "showValues": true,
+   "learningObjectives": "",
+   "text": "<<<42>>> > <<<33>>>",
+   "tokens": {
+    "blank": [
+     "42",
+     "33"
+    ],
+    "text": [
+     0,
+     " > ",
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-3836060547",
+  "source": {
+   "name": "Free Text",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "INSTRUCTIONS",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "math-stack",
+  "taskId": "math-stack-3728347028",
+  "source": {
+   "name": "S.T.A.C.K Math Assessment",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "question": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<quiz>\n<!-- question: 28  -->\n  <question type=\"stack\">\n    <name>\n      <text>Algebraic input</text>\n    </name>\n    <questiontext format=\"html\">\n      <text><![CDATA[<p>Type in {@ta@}.<br></p><p>[[input:ans1]]</p><div>[[validation:ans1]]</div>]]></text>\n    </questiontext>\n    <generalfeedback format=\"html\">\n      <text></text>\n    </generalfeedback>\n    <defaultgrade>1.0000000</defaultgrade>\n    <penalty>0.1000000</penalty>\n    <hidden>0</hidden>\n    <questionvariables>\n      <text>ta:a*b</text>\n    </questionvariables>\n    <specificfeedback format=\"html\">\n      <text>[[feedback:prt1]]</text>\n    </specificfeedback>\n    <questionnote>\n      <text></text>\n    </questionnote>\n    <questionsimplify>1</questionsimplify>\n    <assumepositive>0</assumepositive>\n    <assumereal>0</assumereal>\n    <prtcorrect format=\"html\">\n      <text>Correct answer, well done.</text>\n    </prtcorrect>\n    <prtpartiallycorrect format=\"html\">\n      <text>Your answer is partially correct.</text>\n    </prtpartiallycorrect>\n    <prtincorrect format=\"html\">\n      <text>Incorrect answer.</text>\n    </prtincorrect>\n    <multiplicationsign>dot</multiplicationsign>\n    <sqrtsign>1</sqrtsign>\n    <complexno>i</complexno>\n    <inversetrig>cos-1</inversetrig>\n    <matrixparens>[</matrixparens>\n    <variantsselectionseed></variantsselectionseed>\n    <input>\n      <name>ans1</name>\n      <type>algebraic</type>\n      <tans>ta</tans>\n      <boxsize>15</boxsize>\n      <strictsyntax>1</strictsyntax>\n      <insertstars>2</insertstars>\n      <syntaxhint></syntaxhint>\n      <syntaxattribute>0</syntaxattribute>\n      <forbidwords>solve</forbidwords>\n      <allowwords></allowwords>\n      <forbidfloat>1</forbidfloat>\n      <requirelowestterms>0</requirelowestterms>\n      <checkanswertype>1</checkanswertype>\n      <mustverify>1</mustverify>\n      <showvalidation>1</showvalidation>\n      <options></options>\n    </input>\n    <prt>\n      <name>prt1</name>\n      <value>1.0000000</value>\n      <autosimplify>1</autosimplify>\n      <feedbackvariables>\n        <text></text>\n      </feedbackvariables>\n      <node>\n        <name>0</name>\n        <answertest>AlgEquiv</answertest>\n        <sans>ans1</sans>\n        <tans>ta</tans>\n        <testoptions></testoptions>\n        <quiet>0</quiet>\n        <truescoremode>=</truescoremode>\n        <truescore>1.0000000</truescore>\n        <truepenalty></truepenalty>\n        <truenextnode>-1</truenextnode>\n        <trueanswernote>prt1-1-T</trueanswernote>\n        <truefeedback format=\"html\">\n          <text></text>\n        </truefeedback>\n        <falsescoremode>=</falsescoremode>\n        <falsescore>0.0000000</falsescore>\n        <falsepenalty></falsepenalty>\n        <falsenextnode>-1</falsenextnode>\n        <falseanswernote>prt1-1-F</falseanswernote>\n        <falsefeedback format=\"html\">\n          <text></text>\n        </falsefeedback>\n      </node>\n    </prt>\n  </question>\n\n</quiz>",
+   "points": "1",
+   "learningObjectives": "",
+   "oneTimeTest": true
+  }
+ }
+]
