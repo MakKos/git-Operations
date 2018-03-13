@@ -1,3 +1,1 @@
-йцуйцуйцуйцуйцуqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqwe
-
-It was changed in "master" branch but not in "solutions" branch
+test
